@@ -2,3 +2,4 @@ twitter.com#?#article:-abp-has(article > div > div > div > div > div > span:-abp
 twitter.com#?#article:-abp-has(article > div > div > div > div > div > span:-abp-contains(Promoted))
 mobile.twitter.com##:xpath(/html/body//div[@role="article"][.//text()[starts-with(., "Promoted")]])
 
+twitter.com##:xpath(//article/div/div[contains(@data-testid,"tweet")]/div/div/div/div[not(@lang)]/span[contains(text(),"Promoted")]/ancestor::div[not(@*)])
