@@ -1,2 +1,4 @@
 twitter.com#?#article:-abp-has(article > div > div > div > div > div > span:-abp-contains(プロモーション))
 twitter.com#?#article:-abp-has(article > div > div > div > div > div > span:-abp-contains(Promoted))
+mobile.twitter.com##:xpath(/html/body//div[@role="article"][.//text()[starts-with(., "Promoted")]])
+
