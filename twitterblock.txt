@@ -4,3 +4,14 @@ mobile.twitter.com##:xpath(/html/body//div[@role="article"][.//text()[starts-wit
 
 twitter.com##:xpath(//article/div/div[contains(@data-testid,"tweet")]/div/div/div/div[not(@lang)]/span[contains(text(),"Promoted")]/ancestor::div[not(@*)])
 twitter.com##:xpath(//article/div/div[contains(@data-testid,"tweet")]/div/div/div/div[not(@lang)]/span[contains(text(),"プロモーション")]/ancestor::div[not(@*)])
+
+
+twitter.com##.module.trends
+twitter.com##.wtf-module
+twitter.com##[data-component-context="suggest_activity_tweet"]
+twitter.com##.nav>.moments
+twitter.com##.LiveVideoHomePageModuleContainer
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/)
+twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|Реклама/)
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|プロモーション/)
+twitter.com##[data-focusable="true"]:has-text(/Promoted|Gesponsert|プロモーション/)
