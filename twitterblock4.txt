@@ -1,0 +1,7 @@
+twitter.com##.trends.Trends.module
+twitter.com##.dashboard-right.dashboard
+twitter.com##.module.DashboardProfileCard
+!twitter.com##article:has-text(/Promoted|Gesponsert|Реклама|Promocionado|Sponsorisé/):xpath(../..)
+twitter.com##:xpath(//span[(text()='Promoted' or text()='Gesponsert' or text()='Реклама' or text()='Promocionado'or text()='Sponsorisé']/../../../../..)
+twitter.com##[data-testid="trend"]:h
+
